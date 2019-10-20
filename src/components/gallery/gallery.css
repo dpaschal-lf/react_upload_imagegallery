@@ -1,0 +1,19 @@
+
+.imageGallery{
+    border: 1px solid maroon;
+    display: flex;
+    height: 50vh;
+    flex-wrap: wrap;
+}
+.imageGallery .item, .modalContent .item{
+    background-size: cover;
+    background-position: center;
+}
+.imageGallery .item{
+    width: 100%;
+    flex: 1 0 21%;
+}
+.modalContent .item{
+    width: 90vw;
+    height: 90vh;
+}

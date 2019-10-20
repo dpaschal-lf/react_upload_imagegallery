@@ -1,0 +1,33 @@
+.modalShadow{
+    background-color: rgba(0,0,0,.4);
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+}
+.modalBody{
+    background-color: white;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid grey;
+    display: flex;
+}
+.modalContent{
+    margin: auto;
+    display: flex;
+}
+.modalClose{
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color: black;
+    padding: 1%;
+    color: white;
+    cursor: pointer;
+}
+.modalClose:hover{
+    background-color: lightgrey;
+}
