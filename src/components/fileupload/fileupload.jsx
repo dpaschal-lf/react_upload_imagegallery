@@ -26,7 +26,7 @@ class FileUploadInput extends React.Component{
     }
     render(){
         return (
-        <input type="file" onChange={this.handleFileSelect}/>
+        <input type="file" onChange={this.handleFileSelect} multiple/>
         )
     }
 }
